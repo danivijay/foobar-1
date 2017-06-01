@@ -1,5 +1,5 @@
 //Welcome to foobar version 53-10-g85713ac-beta (2016-09-28-19:53+0000)
-public class answer {
+public class Answer {
     public static String answer(String s) { 
 
         // Your code goes here.
