@@ -1,8 +1,6 @@
-//Welcome to foobar version 53-10-g85713ac-beta (2016-09-28-19:53+0000)
+package com.google.challenges; //only applicable for Google Challenges aka foo.bar
 public class Answer {
     public static String answer(String s) { 
-
-        // Your code goes here.
         StringBuilder sb = new StringBuilder();
         for(char c : s.toCharArray()) {
             if( c >= 'a' && c <= 'z' ) {
@@ -10,7 +8,6 @@ public class Answer {
             }
             sb.append(c);
         }
-        
         return sb.toString();
     }
 }
